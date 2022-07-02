@@ -18,7 +18,7 @@ for (k = '0'; k <= '9'; k++)
 if ((i < j) & (j < k) & (k <= '9'))
 {
 putchar(i);
-0putchar(j);
+putchar(j);
 putchar(k);
 if ((i + j + k) < 168)
 {
